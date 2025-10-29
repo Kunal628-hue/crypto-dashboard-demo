@@ -1,0 +1,61 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f7f9fc;
+    margin: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .checkbox-group label {
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkbox-group input {
+    margin-right: 0.5rem;
+  }
+  
+  .chart-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  footer {
+    background: #f1f1f1;
+    padding: 1rem;
+  }
